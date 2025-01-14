@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exe1</title>
+</head>
+
+<body>
+<h1>INSIRA UM NUMERO</h1>
+<input type="number" id="txt1">
+<input type="button" value="verificar se é par ou ímpar" onclick="impar()">
+
+<script>
+function impar(){
+var number = document.getElementById("txt1").value;
+var total=number/2;
+if (number%2 == 0){
+    alert("Par");}
+
+if(number%2 == 1){
+    alert("impar");}
+}
+</script> 
+</body>
+</html>
